@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Cinepolis</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_genre">Genre</string>
+    <string name="menu_info">Info</string>
+    <string name="tel">076-7820600</string>
+    <string-array name="bank_namen">
+        <item>ABN AMRO</item>
+        <item>ASN Bank</item>
+        <item>Bunq</item>
+        <item>ING</item>
+        <item>Knab</item>
+        <item>Rabobank</item>
+        <item>RegioBank</item>
+        <item>SNS Bank</item>
+        <item>Triodos Bank</item>
+        <item>van Lanschot</item>
+    </string-array>
+</resources>

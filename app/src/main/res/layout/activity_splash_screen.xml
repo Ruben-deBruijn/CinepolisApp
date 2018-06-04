@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="jedi.cinepolis.SplashScreen">
+
+    <FrameLayout
+        android:alpha="1"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sContainer">
+
+        <LinearLayout
+            android:alpha="0"
+            android:id="@+id/sPosters"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:alpha="0"
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:id="@+id/sPoster1"
+                    android:layout_weight="1"
+                    android:src="@drawable/beauty_and_the_beast"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"/>
+
+                <ImageView
+                    android:alpha="0"
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:id="@+id/sPoster2"
+                    android:src="@drawable/get_out"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:alpha="0"
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:id="@+id/sPoster3"
+                    android:layout_weight="1"
+                    android:src="@drawable/kong_skull_island"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"/>
+
+                <ImageView
+                    android:alpha="0"
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:id="@+id/sPoster4"
+                    android:src="@drawable/logan"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:alpha="0"
+                    android:id="@+id/sPoster5"
+                    android:layout_weight="1"
+                    android:src="@drawable/lego_batman_movie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"/>
+
+                <ImageView
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:alpha="0"
+                    android:id="@+id/sPoster6"
+                    android:src="@drawable/shack"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:elevation="6dp"
+            android:id="@+id/sLogo"
+            android:alpha="0"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"/>
+
+    </FrameLayout>
+
+
+</FrameLayout>

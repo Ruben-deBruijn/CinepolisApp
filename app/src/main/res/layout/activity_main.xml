@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:clipToPadding="false"
+    android:background="@android:color/black"
+    tools:context="jedi.cinepolis.MainActivity">
+
+
+    <GridView
+        android:alpha="0"
+        android:id="@+id/moviesGv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:layout_above="@+id/navbar"
+        android:verticalSpacing="6dp"
+        android:horizontalSpacing="2dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"/>
+
+
+    <include layout="@layout/navbar_layout"
+        android:id="@+id/navbar"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:elevation="6dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"></include>
+
+</RelativeLayout>
+

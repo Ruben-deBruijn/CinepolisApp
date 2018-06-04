@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="0dp"
+    android:clipToPadding="false"
+    android:layout_height="?attr/actionBarSize">
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="12dp"
+        app:cardBackgroundColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/navbtn1v"
+            android:visibility="visible"
+            android:alpha="0.2"
+            android:background="@android:color/white"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/navbtn2v"
+            android:visibility="invisible"
+            android:alpha="0.2"
+            android:background="@android:color/white"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/navbtn3v"
+            android:visibility="invisible"
+            android:alpha="0.2"
+            android:background="@android:color/white"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/navbtn4v"
+            android:visibility="invisible"
+            android:alpha="0.2"
+            android:background="@android:color/white"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/navbtn1"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_margin="6dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/list"/>
+
+    <ImageButton
+        android:id="@+id/navbtn2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_margin="6dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/filter"/>
+
+    <ImageButton
+        android:id="@+id/navbtn3"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_margin="6dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/social"/>
+
+    <ImageButton
+        android:id="@+id/navbtn4"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_margin="6dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/info"/>
+
+    </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>

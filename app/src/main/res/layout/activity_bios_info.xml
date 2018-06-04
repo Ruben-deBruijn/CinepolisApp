@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_bios_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    tools:context="jedi.cinepolis.BiosInfoActivity">
+
+
+    <ImageView
+        android:alpha="0"
+        android:id="@+id/contactBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kong_skull_island_blur"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/contactSv"
+        android:alpha="0"
+        android:layout_above="@+id/navbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:paddingBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/map"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefoonnummer"/>
+
+            <android.support.v7.widget.CardView
+                android:alpha="0.7"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="4dp"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:autoLink="phone"
+                    android:layout_margin="16dp"
+                    android:lineSpacingExtra="6dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="10"
+                    android:text="076-7820600"/>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adres"/>
+
+            <android.support.v7.widget.CardView
+                android:alpha="0.7"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="4dp"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_margin="16dp"
+            android:lineSpacingExtra="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="10"
+            android:text="Kinepolis Breda \nBavelseparklaan 4 \n4817 ZX Breda \nNederland"/>
+
+    </android.support.v7.widget.CardView>
+
+            <TextView
+                android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Openingstijden"/>
+
+            <android.support.v7.widget.CardView
+                android:alpha="0.7"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="4dp"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_margin="16dp"
+            android:lineSpacingExtra="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="10"
+            android:text="Ma: 11:00uur - Sluit \nDi: 11:00 uur - Sluit \nWo: 11:00 uur - Sluit \nDo: 11:00 uur - Sluit \nVr: 11:00 uur - Sluit \nZa: 11:00 uur - Sluit \nZo: 11:00 uur - Sluit"/>
+
+    </android.support.v7.widget.CardView>
+
+            <TextView
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bereikbaarheid"/>
+
+            <android.support.v7.widget.CardView
+                android:alpha="0.7"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="4dp"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:paddingBottom="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="6dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Auto"/>
+
+                <TextView
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:lineSpacingExtra="6dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="10"
+                    android:text="Met de auto kunt u de bioscoop makkelijk bereiken. LET OP: stel uw navigatiesysteem in op het adres 'Minervum, Breda'. Zodra u vanuit Breda-centrum de A27 kruist of vanaf de snelweg afslag 15-Breda hebt genomen, zet u uw navigatie uit en volgt u de gele bordjes richting 'Breepark'. Houd de borden richting 'Mc Donalds' aan en neem op de rotonde de rechterbaan. De bioscoop bevindt zich aan uw rechterzijde. De parkeergarage zit onder de bioscoop. U kunt bij Kinepolis Breda GRATIS parkeren!"/>
+
+                    <TextView
+                        android:layout_marginTop="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginBottom="6dp"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Openbaar vervoer"/>
+
+                    <TextView
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:lineSpacingExtra="6dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="10"
+                        android:text="U kunt Kinepolis Breda vanaf 11 december goed bereiken met het openbaar vervoer. Maandag t/m vrijdag (tot 18:00 uur) stopt buslijn 131 vanaf het Centraal Station Breda (richting Tilburg) bij de bushalte bij Breepark. 's Avonds en in het weekend rijden buslijnen 325, 326 en 327 tussen het Centraal Station Breda en Breepark. De bushalte op Breepark bevindt zich direct naast de bioscoop."/>
+
+                    <TextView
+                        android:layout_marginTop="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginBottom="6dp"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fiets"/>
+
+                    <TextView
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:lineSpacingExtra="6dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="10"
+                        android:text="De gratis en overdekte parkeergarage heeft tevens een zeer grote fietsenstalling."/>
+
+                    <TextView
+                        android:layout_marginTop="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginBottom="6dp"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rolstoeltoegankelijkheid"/>
+
+                    <TextView
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:lineSpacingExtra="6dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="10"
+                        android:text="Kinepolis Breda heeft rolstoelplaatsen in elke zaal. Lift en mindervalidentoilet zijn ook aanwezig."/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+        <include layout="@layout/navbar_layout"
+            android:id="@+id/navbar"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:elevation="6dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"></include>
+
+    </RelativeLayout>
+
+</FrameLayout>
